@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>www.tetra@info.com</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  
+  </style>
+<body>
+  <div class="hai">
+    <form>
+        <div class="container">
+          <h1 class="w3-center">For appoinment fill this page</h1>
+          <!--<p class="w3-center w3-large"></p>-->
+          <hr>
+      
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Name" name="name" id="name" >
+      
+          <label for="address"><b>Address</b></label>
+          <input type="text" placeholder="Address" name="address" id="address" >
+      
+          <label for="mobile-number"><b>Mobile Number</b></label>
+          <input type="text" placeholder="Mobile Number" name="mobile-number" id="mobile-number" >
+          <br>
+          <button type="submit" class="tokenbtn">YOUR TOKEN : #32</button>
+          <hr>
+      
+          <!--<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>-->
+          <button type="submit" class="bookbtn"><a href="appoinment.html">Book</a></button><button type="submit" class="cancelbtn"><a href="index.html"> Cancel</a></button>
+        </div>
+      
+        <!--<div class="container signin">
+          <p>Already have an account? <a href="login.html">Login</a>.</p>
+        </div>-->
+      </form> 
+    </div>
+
+<style>
+* {box-sizing: border-box}
+
+.hai {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.bookbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.bookbtn:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  background-color: #f70505;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.cancelbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links 
+a {
+  color: dodgerblue;
+}*/
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
+
+</body>
+</html>
